@@ -1,0 +1,20 @@
+The ``simple_test`` module
+================================
+
+Using ``simple_func`` function
+--------------------------------
+
+First, import the function:
+>>> from simple_test import simple_func
+
+Then, test the function with list input:
+>>> x = [1, 2, 3]
+>>> simple_func(x)
+12
+
+Later, test the funtion with tuple input:
+>>> x = (1, 2, 3)
+>>> simple_func(x)
+Traceback (most recent call last):
+    ...
+TypeError: Oh! Not tuple!
